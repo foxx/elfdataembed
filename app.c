@@ -1,26 +1,4 @@
-/* 
-Requires: libfuse-dev libelf-dev libguestfs-dev
-*/
-
 #include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
-#include <limits.h>
-#include <libgen.h>
-#include <stdarg.h>
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <unistd.h>
-
-#include <libelf.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/mount.h>
-#include <ctype.h>
-#include <dirent.h>
-
 #include "helpers.h"
 
 SectionInfo *self_get_second_info(char *section_name) {
