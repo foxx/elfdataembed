@@ -35,6 +35,11 @@ This is [detailed here](http://www.linuxjournal.com/content/embedding-file-execu
 
 This is [detailed here](http://stackoverflow.com/questions/4864866/c-c-with-gcc-statically-add-resource-files-to-executable-library) but can cause some anti virus / integrity tools to throw warnings. It also breaks any hash checking you put into your binary.
 
+#### Convert to data array
+
+This is [shown here](http://www.cocoanetics.com/2010/10/embedding-binary-resources/) and [here](http://blog.theroyweb.com/embedding-a-binary-file-as-an-array-in-firmware), but has the same problems as compiling to a symbol afaik.
+
+
 ## Acknowledgements
 
 Thanks to [harryr](https://github.com/harryr) and `freenode/##c` for code review and assistance
