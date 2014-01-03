@@ -1,4 +1,4 @@
-# ELF data embedder (elfdataembed)
+# ELF data embedder
 
 Embeds files into 32/64bit ELF sections, and provides a simple C interface for the runtime to extract them.
 
