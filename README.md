@@ -17,12 +17,12 @@ $ make
 $ build/app
 [x] embedded image found at offset 13756, size 1500
 
-$ dd if=build/app of=test bs=1 skip=13756 count=1500
+$ dd if=build/app of=build/test bs=1 skip=13756 count=1500
 1500 bytes (1.5 kB) copied, 0.00259477 s, 578 kB/s
 
-$ md5sum image.file test
-09441e5fd94bf722af5b5bfc2676638f  image.file
-09441e5fd94bf722af5b5bfc2676638f  test
+$ md5sum build/image.file build/test
+09441e5fd94bf722af5b5bfc2676638f  build/image.file
+09441e5fd94bf722af5b5bfc2676638f  build/test
 ```
 
 ## Alternative methods (and why they suck);
