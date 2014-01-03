@@ -28,12 +28,12 @@ $ md5sum image.file test
 
 #### Compile as symbol and link
 
-This is [detailed here][http://www.linuxjournal.com/content/embedding-file-executable-aka-hello-world-version-5967] and [here][http://stackoverflow.com/questions/6785214/how-to-embed-a-file-into-an-executable-file], however this becomes troublesome for large files as the entire binary must be loaded into memory in order to read it (even if you read sequentially). An example project can be found [here][https://github.com/andresmusetti/elf-data].
+This is [detailed here](http://www.linuxjournal.com/content/embedding-file-executable-aka-hello-world-version-5967) and [here](http://stackoverflow.com/questions/6785214/how-to-embed-a-file-into-an-executable-file), however this becomes troublesome for large files as the entire binary must be loaded into memory in order to read it (even if you read sequentially). An example project can be found [here](https://github.com/andresmusetti/elf-data).
 
 #### Append to end of file
 
-This is [detailed here][http://stackoverflow.com/questions/4864866/c-c-with-gcc-statically-add-resource-files-to-executable-library] but can cause some anti virus / integrity tools to throw warnings. It also breaks any hash checking you put into your binary.
+This is [detailed here](http://stackoverflow.com/questions/4864866/c-c-with-gcc-statically-add-resource-files-to-executable-library) but can cause some anti virus / integrity tools to throw warnings. It also breaks any hash checking you put into your binary.
 
 ## Acknowledgements
 
-Thanks to [harryr][https://github.com/harryr] and `freenode/##c` for code review and assistance
+Thanks to [harryr](https://github.com/harryr) and `freenode/##c` for code review and assistance
