@@ -6,7 +6,7 @@ Alternative methods are not suitable for large files as they load the entire bin
 
 This approach allows you to extract embedded data with tiny memory overhead, or pass position/offset reference to an external tool for direct usage without having to extract at all. You can create memory efficient self extracting binaries, or even create read-only loop mounts directly from the binary without any extraction at all. 
 
-This is a follow up from a [stackoverflow thread][http://stackoverflow.com/questions/2900936/packing-a-file-into-an-elf-executable].
+This is a follow up from a [stackoverflow thread](http://stackoverflow.com/questions/2900936/packing-a-file-into-an-elf-executable).
 
 This project contains a small example app which demonstrates how to use it;
 
