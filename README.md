@@ -1,5 +1,7 @@
 # ELF data embedder
 
+**NOTE: This code should be considered experimental only, as I am not a C developer.**
+
 Embeds files into 32/64bit ELF sections, and provides a simple C interface for the runtime to [extract them](http://stackoverflow.com/questions/2900936/packing-a-file-into-an-elf-executable).
 
 This approach allows you to extract embedded data with tiny memory overhead, or pass position/offset reference to an external tool for direct usage without having to extract at all. You can create memory efficient self extracting binaries, or even create read-only loop mounts directly from the binary without any extraction at all. 
